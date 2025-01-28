@@ -4,4 +4,4 @@ def test_app():
     response=app.test_client().get('/')
 
     assert response.status_code==200
-    assert response.data== b'hellooo'
+    assert response.data== b'hello world'
